@@ -1,80 +1,137 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.nav-container{
+
+.nav-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #FFF8F3;
 }
-.nav-logo{
 
-font-size: 21px;
-margin-top: 38px;
+.nav-logo {
+
+    font-size: 21px;
+    margin-top: 38px;
 }
-.color-r{
+
+.color-r {
     color: #FD6E0A;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 51px;
 }
-.nav-menu li{
+
+.nav-menu li {
     list-style: none;
     font-weight: 400;
     font-size: 20px;
     margin-right: 30px;
 }
-.hire-btn{
-background-color: #FD6E0A;
-padding: 8px;
-color: white;
-border-radius: 5px;
-border: none;
+
+.hire-btn {
+    background-color: #FD6E0A;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    border: none;
 
 
 }
+
 /* banner start  */
-.banner-container{
-display: flex;
-justify-content: space-around;
-align-items: center;
-background-color: rgb(255, 248, 243);
-padding: 50px 0;
-background-image: url("../images/header_bg.png");
-background-repeat: no-repeat;
-background-position: bottom right;
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 248, 243);
+    padding: 50px 0;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
 }
 
-.banner-text{
-margin-left: 240px;
+.banner-text {
+    margin-left: 240px;
 }
-.banner-text h3{
+
+.banner-text h3 {
     color: #474747;
     font-size: 30px;
     font-weight: 600;
 }
-.banner-text h1{
- 
-margin: 10px 0;
- 
-font-size: 45px;
+
+.banner-text h1 {
+    margin: 10px 0;
+    font-size: 45px;
 }
-.banner-text p{
-    color:  #181818;
+
+.banner-text p {
+    color: #181818;
     font-weight: 600;
     width: 600px;
     margin-bottom: 25px;
 }
 
-.banner-image img{
-  
+.banner-image img {
+
     height: 480px;
+}
+
+/* banner section end  */
+/* about section start  */
+.about-me-container {
+
+    margin-top: 70px;
+}
+
+.main-container {
+    width: 850px;
+    height: 400px;
+    background-color: #FFF8F3;
+    margin: auto;
+    
+}
+
+
+
+.about-text h1 {
+
+    text-align: center;
+
+    padding: 35px;
+}
+
+.about-text p {
+    color: #757575;
+    font-weight: 400;
+    text-align: center;
+    padding: 34px;
+    font-size: 15px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.about-info1 {
+
+    padding: 15px;
+}
+.about-info1 p{
+    color: #757575;
+    font-weight: 400;
 }
