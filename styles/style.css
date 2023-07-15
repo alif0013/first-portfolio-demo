@@ -303,3 +303,47 @@ body {
 #comment {
     margin-bottom: 18px;
 }
+/* responsive section  */
+
+@media screen and (max-width:576px){
+/* .about-info{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.my-service-all-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+}
+.single-card{
+    margin-top:6px;
+}
+.single-summary {
+    gap: 30px;
+    flex-direction: column;
+}
+.main-footer-container{
+    flex-direction: column;
+}
+.main-container {
+    width: 100vw;
+    height: 820px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    height: 300px;
+    flex-direction: column;
+}
+
+
+}
+ 
